@@ -3,10 +3,10 @@ Text Utils React App-
 Text Utils is a simple React application designed to perform various text-based operations. It provides features like word and character counting, dark mode toggle, and basic text analysis.
 
 Features:
-Text Analysis: Count the number of words and characters in your text.
-Dark Mode: Toggle between light and dark themes to reduce eye strain during usage.
-User-Friendly Interface: Easy-to-use interface with real-time text processing.
-Responsive Design: Works seamlessly across different screen sizes and devices.
+1. Text Analysis: Count the number of words and characters in your text.
+2. Dark Mode: Toggle between light and dark themes to reduce eye strain during usage.
+3. User-Friendly Interface: Easy-to-use interface with real-time text processing.
+4. Responsive Design: Works seamlessly across different screen sizes and devices.
 
 
 Installation:
@@ -34,7 +34,6 @@ Copy code
 npm start
 Open your browser and visit:
 
-arduino
 Copy code
 http://localhost:3000
 Usage

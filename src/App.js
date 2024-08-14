@@ -6,7 +6,7 @@ import Alert from "./components/Alert";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -61,7 +61,7 @@ function App() {
                 />
               }
             />
-            <Route exact path="/about" element={<AboutUs />} />
+            <Route exact path="/about" element={<AboutUs mode={mode} />} />
             <Route exact path="/contact" element={<ContactUs mode={mode} />} />
           </Routes>
         </div>

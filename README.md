@@ -36,25 +36,30 @@ Open your browser and visit:
 
 Copy code
 http://localhost:3000
-Usage
-Enter the text you want to analyze in the input field.
-The app will automatically display the number of words and characters.
-Use the Dark Mode switch to toggle between light and dark themes.
-Explore additional features like the About Us and Contact Us pages.
-Technologies Used
-React: Front-end library for building user interfaces.
-Bootstrap: CSS framework for styling and responsive design.
-React Router: Library for handling navigation and routing within the app.
-Project Structure
-src/components: Contains all the React components used in the application (e.g., Navbar, TextForm, Alert, AboutUs, ContactUs).
-src/App.js: Main application component that handles routing and state management.
-src/App.css: Custom CSS styles for the application.
-Contributing
+
+Usage:
+1. Enter the text you want to analyze in the input field.
+2. The app will automatically display the number of words and characters.
+3. Use the Dark Mode switch to toggle between light and dark themes.
+4. Explore additional features like the About Us and Contact Us pages.
+
+
+Technologies Used:
+1. React: Front-end library for building user interfaces.
+2. Bootstrap: CSS framework for styling and responsive design.
+3. React Router: Library for handling navigation and routing within the app.
+
+Project Structure:
+1. src/components: Contains all the React components used in the application (e.g., Navbar, TextForm, Alert, AboutUs, ContactUs).
+2. src/App.js: Main application component that handles routing and state management.
+3. src/App.css: Custom CSS styles for the application.
+
+Contributing:
 Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Inspired by the need for simple and efficient text utilities.
-Built with love using React and Bootstrap.
+Acknowledgments:
+1. Inspired by the need for simple and efficient text utilities.
+2. Built with love using React and Bootstrap.
